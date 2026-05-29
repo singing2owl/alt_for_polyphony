@@ -3,7 +3,7 @@
 ### HSE Computational Linguistics bachelor thesis
 
 ## 1. Отделение вокала от инструментала
-Использовался [Python Audio Separator](https://github.com/nomadkaraoke/python-audio-separator), лучшая модель на данный момент - vocals_mel_band_roformer. Полностью оправдывает ожидания.
+Был [протестирован](https://colab.research.google.com/drive/1NZbreNoOy6ZASLQB_jIaXLuDLYgwiYhr?usp=sharing) [Python Audio Separator](https://github.com/nomadkaraoke/python-audio-separator), лучшая модель на данный момент - vocals_mel_band_roformer. Полностью оправдывает ожидания.
 
 ## 2. Разделение голосов
 Использовался код из [репозитория Константина Пинкла](https://huggingface.co/Tino3141/sepacap/tree/main).

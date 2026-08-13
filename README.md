@@ -1,17 +1,16 @@
 ## Development of a Neural Tool for Automatic Lyrics Transcription of Polyphonic Singing
 ### Tatiana Avdeeva
-### HSE Computational Linguistics bachelor thesis
+### HSE University Computational Linguistics bachelor thesis
+
+## Разработка нейросетевого инструмента для транскрипции текста многоголосного пения
+### Татьяна Авдеева
+### ВКР по компьютерной лингвистике (ФиКЛ, НИУ ВШЭ)
 
 ## 1. Отделение вокала от инструментала
-Был [протестирован](https://colab.research.google.com/drive/1NZbreNoOy6ZASLQB_jIaXLuDLYgwiYhr?usp=sharing) [Python Audio Separator](https://github.com/nomadkaraoke/python-audio-separator), лучшая модель на данный момент - vocals_mel_band_roformer. Полностью оправдывает ожидания.
+Использовалась модель `model_bs_roformer_ep_317_sdr_12.9755.ckpt`.
 
 ## 2. Разделение голосов
-Использовался код из [репозитория Константина Пинкла](https://huggingface.co/Tino3141/sepacap/tree/main).
+Для отделения голосов друг от друга использовались модели `sepformer-libri2mix` и `sepformer-libri3mix` для 2-х и 3-х голосов соответственно.
 
-Несмотря на заявленное в [работе](https://huggingface.co/papers/2509.26580) качество, тестирование не дало приемлемых результатов, что ожидаемо с учётом явного переобучения модели.
-
-## 3. Singing-to-speech
-
-Был протестирован код из [репозитория Jiawen Huang](https://github.com/jhuang448/singing-to-speech).
-
-Результат также оставил желать лучшего: хоть аудио действительно стало походить на устную речь больше, чем на пение, разобрать текст из него было бы сложно.
+## 3. Распознавание речи
+Для транскрипции текста использовалась модель `Qwen3ASR-1.7B`.

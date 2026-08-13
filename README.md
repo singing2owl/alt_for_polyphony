@@ -3,6 +3,7 @@
 ### Tatiana Avdeeva
 
 A brief project poster can be found [here](https://github.com/singing2owl/alt_for_polyphony/blob/main/Avdeeva_ALT_for_polyphony_slides.pdf) (ru).
+
 Defence slides describing the project are available [here](https://github.com/singing2owl/alt_for_polyphony/blob/main/ALT_for_1_3_voices.ipynb).
 
 ### 1. Separating vocals from background music
@@ -19,6 +20,7 @@ To separate singer voices from each other the following models were used: `sepfo
 ### Татьяна Авдеева
 
 Краткое изложение идеи и результатов работы представлено на [постере](https://github.com/singing2owl/alt_for_polyphony/blob/main/Avdeeva_ALT_for_polyphony_slides.pdf).
+
 Презентация с защиты ВКР доступна по [ссылке](https://github.com/singing2owl/alt_for_polyphony/blob/main/ALT_for_1_3_voices.ipynb).
 
 ### 1. Отделение вокала от инструментала

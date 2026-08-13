@@ -1,8 +1,8 @@
 ## Development of a Neural Tool for Automatic Lyrics Transcription of Polyphonic Singing
-## / Разработка нейросетевого инструмента для транскрипции текста многоголосного пения
+## Разработка нейросетевого инструмента для транскрипции текста многоголосного пения
 ### Tatiana Avdeeva / Татьяна Авдеева
 ### HSE University Computational Linguistics bachelor thesis
-### / ВКР по компьютерной лингвистике (ФиКЛ, НИУ ВШЭ)
+### ВКР по компьютерной лингвистике (ФиКЛ, НИУ ВШЭ)
 
 ## 1. Отделение вокала от инструментала
 Использовалась модель `model_bs_roformer_ep_317_sdr_12.9755.ckpt`.
